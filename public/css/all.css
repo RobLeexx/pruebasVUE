@@ -64,7 +64,7 @@ a:focus, a:active, button:focus, button:active {
 }
 
 a {
-  color: #0099ff;
+  color: #ff0000;
 }
 a:hover {
   color: #0099ff !important;
