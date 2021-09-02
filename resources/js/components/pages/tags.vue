@@ -20,7 +20,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">1. Memorial</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial"> 
+									<p class="_1adminOverveiw_card_left_num">1. Memorial</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />
@@ -30,7 +33,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">2. Fotocopia Cédula</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial"> 
+									<p class="_1adminOverveiw_card_left_num">2. Documento de identidad</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />
@@ -40,7 +46,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">3. Antecedentes</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial"> 
+									<p class="_1adminOverveiw_card_left_num">3. Antecedentes</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />
@@ -50,7 +59,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">4. Seguro Oblitario de Responsabilidad Civil</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial"> 
+									<p class="_1adminOverveiw_card_left_num">4. Seguro Oblitario de Responsabilidad Civil</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />
@@ -60,7 +72,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">5. Estado de salud del can</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial">
+									<p class="_1adminOverveiw_card_left_num">5. Estado de salud del can</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />
@@ -70,7 +85,10 @@
 				<div class="col-12">
 						<div class="_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two">
 							<div class="_1adminOverveiw_card_left">
-								<p class="_1adminOverveiw_card_left_num">6. Domicilio</p>
+								<ul class="checkboxRequisitos">
+									<input class="checkboxMargin" type="checkbox" value="java" id="memorial">
+									<p class="_1adminOverveiw_card_left_num">6. Domicilio</p>
+								</ul>
 							</div>
 							<div class="_1adminOverveiw_card_right">
 								<Icon type="ios-paper-outline" />

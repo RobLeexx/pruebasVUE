@@ -66786,8 +66786,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("1. Memorial")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("1. Memorial")
+        ])
       ])
     ])
   },
@@ -66796,8 +66803,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("2. Fotocopia Cédula")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("2. Documento de identidad")
+        ])
       ])
     ])
   },
@@ -66806,8 +66820,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("3. Antecedentes")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("3. Antecedentes")
+        ])
       ])
     ])
   },
@@ -66816,8 +66837,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("4. Seguro Oblitario de Responsabilidad Civil")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("4. Seguro Oblitario de Responsabilidad Civil")
+        ])
       ])
     ])
   },
@@ -66826,8 +66854,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("5. Estado de salud del can")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("5. Estado de salud del can")
+        ])
       ])
     ])
   },
@@ -66836,8 +66871,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v("6. Domicilio")
+      _c("ul", { staticClass: "checkboxRequisitos" }, [
+        _c("input", {
+          staticClass: "checkboxMargin",
+          attrs: { type: "checkbox", value: "java", id: "memorial" }
+        }),
+        _vm._v(" "),
+        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
+          _vm._v("6. Domicilio")
+        ])
       ])
     ])
   }

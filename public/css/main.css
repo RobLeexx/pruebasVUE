@@ -3079,3 +3079,10 @@ i.cross_icon{
     border-right: 2px solid #00818a !important;
     background-color:rgb(206, 230, 245);
 }
+.checkboxRequisitos{
+  display: flex;
+	align-items: baseline;
+}
+.checkboxMargin{
+  margin-right: 2em;
+}
