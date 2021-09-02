@@ -70,6 +70,7 @@ a:hover {
   color: #0099ff !important;
   text-decoration: none;
 }
+
 button, input, select, textarea {
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
 }
@@ -225,6 +226,7 @@ textarea {
 }
 ._btn:hover{
     background: #0551b7;
+    text-decoration: none;
 }
 ._btn {
     border: none;
@@ -391,13 +393,13 @@ textarea {
     margin-top: 22px;
     margin-bottom: 16px;
 }
-._1side_menu_list_ul{}
 ._1side_menu_list_ul li i {
     font-size: 19px;
     margin-right: 8px;
 }
 ._1side_menu_list_ul li a:hover{
     color: #dcdcdc;
+    text-decoration: none;
 }
 ._1side_menu_list_ul li a {
     color: #000000 !important;
@@ -415,6 +417,7 @@ textarea {
     transition: .2s all ease;
 }
 ._1side_menu_list_ul li:hover{
+  text-decoration: none;
 }
 ._1side_menu_list_ul_active {
     color: #2d8cf0;
@@ -555,6 +558,7 @@ textarea {
 }
 ._2menu_main_ul_list_ul li p:hover{
     color: #0099ff;
+    text-decoration: none;
 }
 ._2menu_main_ul_list_ul li p {
     transition: 0.3s all ease;
@@ -1029,7 +1033,7 @@ li.activeclass {
     color: #0099ff !important;
 }
 ._1adminOverveiw_card_left {
-    flex: 1 1;
+    flex: auto;
 }
 ._1adminOverveiw_card_right{}
 ._1adminOverveiw_card_right i {
@@ -3071,6 +3075,11 @@ i.cross_icon{
 .catagory_main_inputs {
     width: 319px;
 }
+.router-link-exact-active{
+    border-right: 2px solid #00818a !important;
+    background-color:rgb(206, 230, 245);
+}
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

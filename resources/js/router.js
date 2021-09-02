@@ -6,11 +6,16 @@ import two from './components/pages/TwoVuePage'
 import three from './components/pages/basic/hooks'
 import four from './components/pages/basic/methods'
 import home from './components/pages/home'
+import tags from './components/pages/tags'
 
 const routes = [
     {
         path: '/home',
         component: home
+    },
+    {
+        path: '/tags',
+        component: tags
     },
     {
         path: '/uno',
