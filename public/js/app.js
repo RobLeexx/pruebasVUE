@@ -66616,274 +66616,57 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "content" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_one"
-              },
-              [
-                _vm._m(0),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "_1adminOverveiw_card_right" },
-                  [_c("Icon", { attrs: { type: "ios-paper" } })],
-                  1
+  return _c(
+    "v-container",
+    { attrs: { fluid: "" } },
+    [
+      _c(
+        "v-expansion-panels",
+        _vm._l(5, function(item, i) {
+          return _c(
+            "v-expansion-panel",
+            { key: i },
+            [
+              _c("v-expansion-panel-header", [_vm._v("Item")]),
+              _vm._v(" "),
+              _c("v-expansion-panel-content", [
+                _vm._v(
+                  "\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n      "
                 )
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(1),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
+              ])
+            ],
+            1
           )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(2),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(3),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(4),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(5),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "_1adminOverveiw_card _box_shadow _border_radious _mar_b30 _1adminOverveiw_bg_two"
-            },
-            [
-              _vm._m(6),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "_1adminOverveiw_card_right" },
-                [_c("Icon", { attrs: { type: "ios-paper-outline" } })],
-                1
-              )
-            ]
-          )
-        ])
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-        _vm._v(
-          "Art No.12 DOCUMENTOS A PRESENTAR POR EL PROPIETARIO DEL PERRO PELIGROSO"
-        )
-      ]),
+        }),
+        1
+      ),
       _vm._v(" "),
-      _c("p", { staticClass: "_1adminOverveiw_card_left_title" }, [
-        _vm._v("Listado de Requisitos")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
+      _c(
+        "v-expansion-panels",
+        { attrs: { accordion: "" } },
+        _vm._l(5, function(item, i) {
+          return _c(
+            "v-expansion-panel",
+            { key: i },
+            [
+              _c("v-expansion-panel-header", [_vm._v("Item")]),
+              _vm._v(" "),
+              _c("v-expansion-panel-content", [
+                _vm._v(
+                  "\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n      "
+                )
+              ])
+            ],
+            1
+          )
         }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("1. Memorial")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
-        }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("2. Documento de identidad")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
-        }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("3. Antecedentes")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
-        }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("4. Seguro Oblitario de Responsabilidad Civil")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
-        }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("5. Estado de salud del can")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "_1adminOverveiw_card_left" }, [
-      _c("ul", { staticClass: "checkboxRequisitos" }, [
-        _c("input", {
-          staticClass: "checkboxMargin",
-          attrs: { type: "checkbox", value: "java", id: "memorial" }
-        }),
-        _vm._v(" "),
-        _c("p", { staticClass: "_1adminOverveiw_card_left_num" }, [
-          _vm._v("6. Domicilio")
-        ])
-      ])
-    ])
-  }
-]
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
